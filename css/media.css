@@ -1,0 +1,26 @@
+@media screen and (max-width: 375px){
+    .article{
+        margin: 0.85em;
+        border-radius: 2em 2em 2em 2em ;
+    }
+    .main-image-container{
+      margin: 0;
+      border-radius: 2em 2em 0 0 ;
+    }
+    .main-content{
+      margin:0 0.85em;
+    }
+    .main-content > h3,
+    .main-content > p{
+      margin: 1.5em;
+    }
+    .autor-content{
+      margin-top: 2.2em;
+      padding: 1.1em;
+    }
+    .image{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: inherit;
+  }
+}

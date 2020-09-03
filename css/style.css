@@ -1,2 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    background-color:  hsl(210,46%, 95%);
+}
+h1,h2,h3,h4,h5,h6{
+    color: hsl(217, 19%, 35%);
+}
+p{
+    color: hsl(214, 17%, 51%);
+}
+.article{
+    background-color: white;
+}
+.image{
+    width: 100%;
+    border-radius: inherit;
+    box-sizing: border-box;
+}
+.avatar-image-container{
+    width: 36px;
+    border-radius: 2em;
+    margin: 0;
+}
+.autor-details{
+    display: flex;
+    align-items: center;
+}
+.autor-info > h4, p{
+margin: 0px;
+}
+.autor-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.share-icon{
+    background-color:  hsl(210,46%, 95%);
+    padding: 0.6em;
+    border-radius: 25px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
