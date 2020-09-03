@@ -39,7 +39,7 @@
             </p>
           </div>
         </div>
-        <span class="share-icon"><img src="./images/icon-share.svg" alt=""></span>
+        <span class="share-icon share-button" id="share"><img src="./images/icon-share.svg" alt=""></span>
       </div>
       <div class="share-section">
         <div class="share-inf">
@@ -52,7 +52,7 @@
             <span class="icon"><a href=""><img src="./images/icon-pinterest.svg" alt=""></a></span>
           </div>
           </div>
-              <span class="share-icon share-icon-dark"><img src="./images/icon-share black.svg" alt=""></span>
+              <span class="share-icon share-icon-dark" id="shareNot"><img src="./images/icon-share black.svg" alt=""></span>
     </div>
     </section>
   </main>
@@ -61,5 +61,19 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.twitter.com/jesusdavc">Jesús David Cuéllar</a>.
   </div>
+  <script>
+    const buttonShare = document.querySelector('#share')
+  const buttonShareNot = document.querySelector('#shareNot')
+  const shareOnOFF = document.querySelector('.share-section')
+
+function shareEvent() {
+    (shareOnOFF.style.display !== 'none')
+        ? shareOnOFF.style.display = 'none'
+        : shareOnOFF.style.display = 'flex'
+}
+
+buttonShare.addEventListener('click', shareEvent)
+buttonShareNot.addEventListener('click', shareEvent)
+  </script>
 </body>
 </html>

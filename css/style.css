@@ -44,7 +44,7 @@ margin: 0px;
     align-items: center;
 }
 .share-section{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     background-color:hsl(217, 19%, 35%)
@@ -53,6 +53,7 @@ margin: 0px;
     background-color:  hsl(210,46%, 95%);
     padding: 0.6em;
     border-radius: 25px;
+    cursor: pointer;
 }
 .share-inf > p{
     color: white;
