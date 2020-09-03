@@ -24,6 +24,9 @@ p{
     border-radius: 2em;
     margin: 0;
 }
+.autor-content{
+    margin-top: 2.75em;
+}
 .autor-details{
     display: flex;
     align-items: center;
