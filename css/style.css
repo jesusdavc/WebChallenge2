@@ -36,10 +36,35 @@ margin: 0px;
     align-items: center;
     justify-content: space-between;
 }
+.share-inf{
+    display: flex;
+    align-items: center;
+}
+.share-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:hsl(217, 19%, 35%)
+}
 .share-icon{
     background-color:  hsl(210,46%, 95%);
     padding: 0.6em;
     border-radius: 25px;
+}
+.share-inf > p{
+    color: white;
+    letter-spacing: 0.3em;
+}
+.share-icon-dark{
+    background-color: hsl(214, 17%, 51%);
+}
+.icons{
+    margin: 0.8em;
+    margin-left: 1.2em;
+}
+.icon{
+    width: 32px;
+    padding: 0.5em;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
